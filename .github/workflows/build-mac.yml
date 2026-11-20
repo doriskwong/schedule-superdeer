@@ -23,7 +23,7 @@ jobs:
           pip install pyinstaller
 
       - name: Build with PyInstaller
-        run: pyinstaller --windowed superdeer5.py
+        run: pyinstaller superdeer5.py
 
 
       - name: Upload .app
